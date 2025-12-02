@@ -46,10 +46,6 @@ My work includes **LLM agents, RAG pipelines, backend microservices, data workfl
 ### 🔎 **SearchScribe AI Studio — Full-Stack AI Content Engine**  
 **FastAPI • Next.js • Gemini • JWT Auth • SQLAlchemy • Vercel/Render**
 
-<p align="center">
-  <img src="https://github.com/abhay-yemekar/your-gif-link-here.gif" width="700"/>
-</p>
-
 A production-ready AI content platform for SEO articles, HTML pages, Gen-Z rewrites, and history tracking.  
 **Live:** https://search-scribe-ai-studio.vercel.app  
 **Code:** https://github.com/abhay-yemekar/SearchScribe_AI_Studio  
@@ -59,10 +55,6 @@ A production-ready AI content platform for SEO articles, HTML pages, Gen-Z rewri
 ### 🧠 **ForecastGPT — LLM-Based Financial Outlook Agent**  
 **FastAPI • LangChain • Ollama • MySQL • PDF Parsing**
 
-<p align="center">
-  <img src="https://github.com/abhay-yemekar/your-gif-here.gif" width="700"/>
-</p>
-
 Extracts KPIs, performs transcript RAG, and generates structured financial insights.  
 **Code:** https://github.com/abhay-yemekar/forecastgpt-financial-outlook-agent  
 
@@ -70,10 +62,6 @@ Extracts KPIs, performs transcript RAG, and generates structured financial insig
 
 ### 🤖 **Resume Screening Tool — RAG + Embedding Matching**  
 **FastAPI • RAG • Embeddings • TS Frontend**
-
-<p align="center">
-  <img src="https://github.com/abhay-yemekar/your-gif-here.gif" width="700"/>
-</p>
 
 AI tool that compares resumes & job descriptions with semantic scoring + explanations.  
 **Code:** https://github.com/abhay-yemekar/Resume-Screening-Tool-with-RAG-LLM-Powered-  
