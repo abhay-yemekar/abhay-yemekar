@@ -1,115 +1,156 @@
-# Hi, I'm Abhay 👋  
-### Python Developer • AI/ML Engineer • Data & Automation Specialist  
+<!-- Banner -->
+<h1 align="center">👋 Hi, I'm <span style="color:#4CAF50;">Abhay Yemekar</span></h1>
+<h3 align="center">Python Developer • AI/ML Engineer • Backend & Data Systems Builder</h3>
 
-I’m a software engineer with ~2 years of experience building **AI-powered applications**,  
-**data pipelines**, and **full-stack projects** using Python, FastAPI, Next.js, and modern ML tools.
-
-I love taking an idea → breaking it down → turning it into a clean, scalable, production-ready solution.
-
-📍 Pune, India  
-💼 Open to Python / AI/ML / Data Engineer roles  
-🔗 Portfolio of projects ↓  
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:4CAF50,100:1976D2&height=8&section=header" width="100%"/>
+</p>
 
 ---
 
-## 🚀 Featured Projects (Most Relevant to Hiring Managers)
+## 🚀 About Me  
 
-### 🔎 **SearchScribe AI Studio** — Full-Stack AI Content Engine  
-**FastAPI • Next.js • Gemini API • JWT Auth • MySQL • Render/Vercel**  
-A production-grade AI article generator: SEO content, HTML pages, Gen-Z rewrites, history, regeneration, and clean UI.  
-**→ Live:** https://search-scribe-ai-studio.vercel.app  
-**→ Code:** https://github.com/abhay-yemekar/SearchScribe_AI_Studio  
+I’m a software engineer specializing in **Python, AI/ML, FastAPI, LLM applications, backend APIs, and data engineering**.  
+I build systems that are **clean, scalable, maintainable, and reliable in real-world use cases**.
 
----
-
-### 🏦 **Online Banking Authentication System Using AI**  
-**Python • OpenCV • TensorFlow • Tkinter • SQLite • SMTP**  
-3-factor authentication (Face + OTP + Voice) with liveness detection, async UI, and <15s login flow.  
-Used face recognition (~95% accuracy) + spoof detection (~88% block rate).  
-**→ Code:** https://github.com/abhay-yemekar/Modern-Online-Banking-Authentication-System-using-AI  
+My work includes **LLM agents, RAG pipelines, backend microservices, data workflows, and full-stack applications** across multiple domains.
 
 ---
 
-### 📊 **CricketStat Pro – Data Engineering & Power BI Pipeline**  
-**Python • Pandas • Web Scraping • Power Query • DAX • Power BI**  
-End-to-end sports analytics pipeline (T20 World Cup): scraping → cleaning → modelling KPIs → dashboards.  
-**→ Code:** https://github.com/abhay-yemekar/CricketStat-Pro-Data-Engineering-Visualization-Project-Using-Python-and-Power-BI  
+## 🏷️ Modern Badges
+
+<p align="left">
+
+<!-- Tech -->
+<img src="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-109989.svg?&style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangChain-0052CC.svg?&style=for-the-badge&logo=chainlink&logoColor=white"/>
+<img src="https://img.shields.io/badge/LLMs-Ollama-000000?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/Next.js-000000.svg?&style=for-the-badge&logo=next.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/MySQL-00758F.svg?&style=for-the-badge&logo=mysql&logoColor=white"/>
+
+<!-- Tools -->
+<img src="https://img.shields.io/badge/VS%20Code-007ACC.svg?&style=for-the-badge&logo=visualstudiocode&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub_Actions-2088FF.svg?&style=for-the-badge&logo=githubactions&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel-000000.svg?&style=for-the-badge&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Render-0099FF.svg?&style=for-the-badge&logo=render&logoColor=white"/>
+
+</p>
 
 ---
 
-### 🤖 **Resume Screening Tool – RAG + LLM Matching**  
-**FastAPI • Embeddings • RAG • TypeScript Frontend**  
-AI model that compares resumes to job descriptions and returns a semantic match score with explanations.  
-**→ Code:** https://github.com/abhay-yemekar/Resume-Screening-Tool-with-RAG-LLM-Powered-  
+## 🎯 Featured Projects (With GIF Slots)
+
+Below, I’ve added **GIF slots** where you can upload demo GIFs to GitHub and paste the link.
 
 ---
 
-### 📈 **ForecastGPT – Financial Outlook Agent**  
-**FastAPI • Ollama • Llama 3 • MySQL • PDF Parsing**  
-Agent that extracts earnings numbers, performs RAG on reports, and generates next-quarter predictions.  
-**→ Code:** https://github.com/abhay-yemekar/forecastgpt-financial-outlook-agent  
+### 🔎 **SearchScribe AI Studio — Full-Stack AI Content Engine**  
+**FastAPI • Next.js • Gemini • JWT Auth • SQLAlchemy • Vercel/Render**
+
+<p align="center">
+  <!-- Add your GIF here -->
+  <img src="https://github.com/abhay-yemekar/your-gif-link-here.gif" width="700"/>
+</p>
+
+A production-ready AI content platform for SEO articles, HTML pages, Gen-Z rewrites, and history tracking.  
+**Live:** https://search-scribe-ai-studio.vercel.app  
+**Code:** https://github.com/abhay-yemekar/SearchScribe_AI_Studio  
 
 ---
 
-### 📰 **Flask Web App – Google OAuth + Video Generator**  
-**Flask • OAuth 2.0 • MoviePy • Pillow • TTS**  
-Creates automated news videos from images + text with narration.  
-**→ Code:** https://github.com/abhay-yemekar/PDC-Abhay  
+### 🧠 **ForecastGPT — LLM-Based Financial Outlook Agent**  
+**FastAPI • LangChain • Ollama • MySQL • PDF Parsing**
+
+<p align="center">
+  <img src="https://github.com/abhay-yemekar/your-gif-here.gif" width="700"/>
+</p>
+
+Extracts KPIs, performs transcript RAG, and generates structured financial insights.  
+**Code:** https://github.com/abhay-yemekar/forecastgpt-financial-outlook-agent  
 
 ---
 
-## 💼 Professional Experience
+### 🤖 **Resume Screening Tool — RAG + Embedding Matching**  
+**FastAPI • RAG • Embeddings • TS Frontend**
+
+<p align="center">
+  <img src="https://github.com/abhay-yemekar/your-gif-here.gif" width="700"/>
+</p>
+
+AI tool that compares resumes & job descriptions with semantic scoring + explanations.  
+**Code:** https://github.com/abhay-yemekar/Resume-Screening-Tool-with-RAG-LLM-Powered-  
+
+---
+
+### 📊 **CricketStat Pro — Data Engineering + Power BI Pipeline**  
+**Python • Pandas • Web Scraping • DAX • Data Modeling**
+
+**Code:**  
+https://github.com/abhay-yemekar/CricketStat-Pro-Data-Engineering-Visualization-Project-Using-Python-and-Power-BI
+
+---
+
+### 🏦 **AI-Based Online Banking Authentication System**  
+**OpenCV • TensorFlow • Tkinter • SQLite**
+
+**Code:**  
+https://github.com/abhay-yemekar/Modern-Online-Banking-Authentication-System-using-AI  
+
+---
+
+### 📰 **Flask News Video Generator**  
+**Flask • OAuth2 • Pillow • MoviePy • TTS**
+
+**Code:** https://github.com/abhay-yemekar/PDC-Abhay  
+
+---
+
+## 💼 Experience
 
 ### **Software Engineer — Tata Elxsi (2023–Present)**  
-- Built Python-based testing & validation tools using SDLC best practices.  
-- Automated 3+ test/reporting workflows → **cut manual effort by 30%**.  
-- Experience in embedded systems (Embedded C, RTOS), Jira, Git.  
-- Supported Python validation frameworks for **Mahindra & Mahindra**.  
-- Completed an internal **Generative AI Bootcamp** → prototyped workflow automation tools.
+- Built Python-based validation tools and automated workflows (30% effort reduction).  
+- Worked with Embedded C, RTOS, Jira, Git-based workflows.  
+- Developed GenAI prototypes during an internal AI Bootcamp.  
+- Supported **Mahindra & Mahindra** with Python-driven enterprise testing frameworks.
 
 ---
 
-## 🧠 Core Skills
+## 🧠 Skills
 
-### **Programming**
-Python · C · SQL · JavaScript · HTML/CSS · React (Basic)
-
-### **AI / ML / Data**
-TensorFlow · OpenCV · Pandas · NumPy · RAG · Llama Models · Power BI (DAX)  
-Web Scraping (Bright Data / BeautifulSoup)
-
-### **Backend & APIs**
-FastAPI · Flask · REST · JWT Auth  
-MySQL · SQLite
-
-### **DevOps & Tools**
-Git · GitHub · GitHub Actions  
-AWS (Basic) · Azure (Basic)  
-VS Code · Jupyter · Postman
+**Programming:** Python, SQL, C, TypeScript (Basic), HTML/CSS  
+**AI/ML:** TensorFlow, OpenCV, LangChain, Llama Models, Gemini API, RAG  
+**Backend:** FastAPI, Flask, REST APIs, SQLAlchemy, JWT Auth  
+**Data:** Pandas, NumPy, Power BI, Web Scraping (Bright Data)  
+**Cloud/CI:** Vercel, Render, GitHub Actions, AWS (Basic), Azure (Basic)
 
 ---
 
-## 📜 Certifications
+## 📜 Certifications  
 
-- McKinsey Forward Program (2025)  
+- McKinsey Forward Program  
 - HackerRank Software Engineer Certification  
-- MS + LinkedIn – Python Development  
-- MS + LinkedIn – Generative AI Certificate  
+- Microsoft + LinkedIn — Generative AI Certificate  
+- Microsoft Python Development  
 - GitHub Career Essentials (Microsoft)
 
 ---
 
 ## 📈 GitHub Insights
 
-![Abhay's GitHub Stats](https://github-readme-stats.vercel.app/api?username=abhay-yemekar&show_icons=true&count_private=true&theme=default)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abhay-yemekar&layout=compact)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=abhay-yemekar&show_icons=true&count_private=true" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhay-yemekar&layout=compact" height="160"/>
+</p>
 
 ---
 
-## 🤝 Connect With Me
+## 🤝 Connect with Me  
 
-LinkedIn: **https://linkedin.com/in/abhayyemekar**  
-Email: **abhay.s.yemekar@gmail.com**  
-GitHub: **https://github.com/abhay-yemekar**
+**LinkedIn:** https://linkedin.com/in/abhayyemekar  
+**Email:** abhay.s.yemekar@gmail.com  
+**GitHub:** https://github.com/abhay-yemekar  
 
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1976D2,100:4CAF50&height=8&section=footer" width="100%"/>
+</p>
