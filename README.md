@@ -39,9 +39,7 @@ My work includes **LLM agents, RAG pipelines, backend microservices, data workfl
 
 ---
 
-## 🎯 Featured Projects (With GIF Slots)
-
-Below, I’ve added **GIF slots** where you can upload demo GIFs to GitHub and paste the link.
+## 🎯 Featured Projects
 
 ---
 
@@ -49,7 +47,6 @@ Below, I’ve added **GIF slots** where you can upload demo GIFs to GitHub and p
 **FastAPI • Next.js • Gemini • JWT Auth • SQLAlchemy • Vercel/Render**
 
 <p align="center">
-  <!-- Add your GIF here -->
   <img src="https://github.com/abhay-yemekar/your-gif-link-here.gif" width="700"/>
 </p>
 
@@ -133,15 +130,6 @@ https://github.com/abhay-yemekar/Modern-Online-Banking-Authentication-System-usi
 - Microsoft + LinkedIn — Generative AI Certificate  
 - Microsoft Python Development  
 - GitHub Career Essentials (Microsoft)
-
----
-
-## 📈 GitHub Insights
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=abhay-yemekar&show_icons=true&count_private=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=abhay-yemekar&layout=compact" height="160"/>
-</p>
 
 ---
 
