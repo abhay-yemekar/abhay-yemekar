@@ -1,5 +1,5 @@
-"""One-time font prep: pull the portfolio's three OFL families from google/fonts,
-pin the variable fonts to the static weights the art uses, and trim them to Latin.
+"""One-time font prep: pull Geist and Geist Mono (OFL) from google/fonts, pin the
+variable fonts to the static weights the art uses, and trim them to Latin.
 
 The renderer subsets these again per SVG, so this only keeps the repo small.
 
@@ -22,21 +22,18 @@ OUT = ROOT / "fonts"
 GF = "https://raw.githubusercontent.com/google/fonts/main/ofl"
 
 SOURCES = {
-    "InstrumentSerif-Regular.ttf": f"{GF}/instrumentserif/InstrumentSerif-Regular.ttf",
-    "InstrumentSerif-Italic.ttf": f"{GF}/instrumentserif/InstrumentSerif-Italic.ttf",
-    "InterTight-VF.ttf": f"{GF}/intertight/InterTight%5Bwght%5D.ttf",
-    "JetBrainsMono-VF.ttf": f"{GF}/jetbrainsmono/JetBrainsMono%5Bwght%5D.ttf",
+    "Geist-VF.ttf": f"{GF}/geist/Geist%5Bwght%5D.ttf",
+    "GeistMono-VF.ttf": f"{GF}/geistmono/GeistMono%5Bwght%5D.ttf",
 }
 
-# output name -> (source file, wght or None for static fonts)
+# output name -> (source file, wght)
 BUILDS = {
-    "serif-400.ttf": ("InstrumentSerif-Regular.ttf", None),
-    "serif-400-italic.ttf": ("InstrumentSerif-Italic.ttf", None),
-    "sans-400.ttf": ("InterTight-VF.ttf", 400),
-    "sans-500.ttf": ("InterTight-VF.ttf", 500),
-    "sans-600.ttf": ("InterTight-VF.ttf", 600),
-    "mono-400.ttf": ("JetBrainsMono-VF.ttf", 400),
-    "mono-600.ttf": ("JetBrainsMono-VF.ttf", 600),
+    "geist-400.ttf": ("Geist-VF.ttf", 400),
+    "geist-500.ttf": ("Geist-VF.ttf", 500),
+    "geist-600.ttf": ("Geist-VF.ttf", 600),
+    "geist-800.ttf": ("Geist-VF.ttf", 800),
+    "geistmono-400.ttf": ("GeistMono-VF.ttf", 400),
+    "geistmono-600.ttf": ("GeistMono-VF.ttf", 600),
 }
 
 LATIN = "U+0020-007E,U+00A0-00FF,U+2013-2014,U+2018-201D,U+2022,U+2026,U+2190-2193,U+2197,U+25CF,U+2713,U+00B7"
@@ -45,9 +42,7 @@ LATIN = "U+0020-007E,U+00A0-00FF,U+2013-2014,U+2018-201D,U+2022,U+2026,U+2190-21
 def build(src_dir: pathlib.Path) -> None:
     OUT.mkdir(exist_ok=True)
     for out_name, (src_name, wght) in BUILDS.items():
-        font = TTFont(src_dir / src_name)
-        if wght is not None:
-            font = instancer.instantiateVariableFont(font, {"wght": wght})
+        font = instancer.instantiateVariableFont(TTFont(src_dir / src_name), {"wght": wght})
         opts = subset.Options()
         opts.layout_features = ["kern", "liga", "calt", "tnum"]
         opts.name_IDs = ["*"]

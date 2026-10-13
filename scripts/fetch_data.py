@@ -168,7 +168,7 @@ def fetch_repos() -> dict:
 def fetch_npm() -> dict:
     out = {}
     for project in CONTENT["project"]:
-        for fact in project.get("facts", []):
+        for fact in [v for v in project.values() if isinstance(v, str)]:
             start = 0
             while (i := fact.find("{npm:", start)) != -1:
                 pkg = fact[i + 5 : fact.index("}", i)]

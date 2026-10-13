@@ -1,156 +1,26 @@
-# Everything the profile art says lives here. Edit this file, push, and the
-# workflow re-renders assets/. Numbers (contributions, versions, downloads,
-# live checks) come from data/stats.json, refreshed daily by scripts/fetch_data.py.
-#
-# Fact strings may use {placeholders} filled from stats.json:
-#   {npm:<package>}  downloads in the last 30 days
+# Everything the profile art says lives here. Edit this file and push; the
+# workflow re-renders assets/. Live numbers (contributions, versions, downloads,
+# health checks) come from data/stats.json, refreshed daily by scripts/fetch_data.py.
+# Logo slugs are Simple Icons slugs; after adding one run scripts/fetch_icons.py.
+# Strings may use {placeholders}: {npm:<package>}, {live}, {prs}.
 
 [person]
 name = "Abhay Yemekar"
 github = "abhay-yemekar"
-eyebrow = "Pune, India · Software Engineer @ Translytics"
-lede_pre = "I turn messy problems into"
-lede_em = "clean, modular, reliable"
-lede_post = "systems."
-focus = ["Python", "AI / LLM agents", "Backend", "Data"]
+role_1 = "Full-stack"
+role_2 = "AI engineer."
+tagline = ["I build AI products end to end, from the model", "to the interface, and make them show their work."]
+meta = "Pune, India  ·  currently at Translytics  ·  open source"
+code_file = "abhay.ts"
+code_footer = "// {live} live products · {prs} PRs merged this year"
 
-[[project]]
-slug = "hirelens"
-name = "HireLens"
-kind = "Open source · Responsible AI"
-tagline = "Glass-box candidate ranking: every score cites the exact evidence it came from."
-facts = [
-  "Every score linked to quoted evidence at exact offsets",
-  "Four-fifths bias audit, blind review, hash-chained log",
-  "npm ({npm:hirelens} downloads/30d) · GHCR images · OpenAPI 3.1",
-]
-stack = ["Next.js", "Hono", "TypeScript", "Postgres + pgvector", "Drizzle"]
-repo = "hirelens"
-live = "https://hirelens-rosy.vercel.app"
-version = "release"
+[person.code]
+role = "full-stack AI engineer"
+based = "Pune, India"
+shipping = ["HireLens", "yDirect", "SearchScribe"]
+stack = ["Python", "TypeScript", "LLMs", "RAG"]
+rule = "model output is untrusted"
 
-[[project]]
-slug = "ydirect"
-name = "yDirect"
-kind = "Chrome extension · Productivity"
-tagline = "Save prompts, replies and snippets once. Search and copy them from Chrome's side panel."
-facts = [
-  "Published on the Chrome Web Store · Manifest V3",
-  "Firebase Auth; Firestore rules enforce access server-side",
-  "Offscreen-document sign-in, strict CSP, 16 Node test suites",
-]
-stack = ["Chrome MV3", "JavaScript", "Firebase", "Cloud Functions", "Node 22"]
-repo = "ydirect"
-live = "https://chromewebstore.google.com/detail/ehkahipeoahnbfbahlkedgdcjefejihg"
-version = "release"
-
-[[project]]
-slug = "searchscribe"
-name = "SearchScribe AI"
-kind = "Open source · AI writing studio"
-tagline = "A topic in, a researched and structured draft out. Edit it, version it, export clean HTML."
-facts = [
-  "Tavily research + Gemini drafts, sources kept per version",
-  "Model never writes HTML: Jinja2 renders, nh3 sanitizes",
-  "6 rewrite styles · immutable versions · Playwright CI",
-]
-stack = ["Next.js 16", "FastAPI", "SQLAlchemy 2", "PostgreSQL", "Gemini"]
-repo = "SearchScribe_AI_Studio"
-live = "https://searchscribe-ai.vercel.app"
-badge = "beta"
-
-[[project]]
-slug = "forecastgpt"
-name = "ForecastGPT"
-kind = "AI agent · Finance"
-tagline = "Reads quarterly filings and earnings calls, then writes a grounded next-quarter outlook."
-facts = [
-  "RAG over results decks and transcripts with FAISS + LangChain",
-  "Every claim traced to a retrieved chunk; JSON output",
-  "Local LLaMA 3 via Ollama · Redis/RQ jobs · MySQL log",
-]
-stack = ["Python", "FastAPI", "LangChain", "FAISS", "Ollama"]
-repo = "forecastgpt-financial-outlook-agent"
-live = "https://forecastgpt-financial-outlook-agent.onrender.com/"
-
-[[project]]
-slug = "writeright"
-name = "WriteRight"
-kind = "Chrome extension · Writing"
-tagline = "Self-hosted grammar checks and AI rewrites, reviewed in the page before anything changes."
-facts = [
-  "Extension + web editor, zero-dependency Node server",
-  "Accept, reject, guarded undo: text never changes silently",
-  "LanguageTool grammar + optional Gemini rewrites (BYO key)",
-]
-stack = ["JavaScript", "Chrome MV3", "Node.js", "Gemini"]
-repo = "ycorrect"
-
-[[project]]
-slug = "reflex"
-name = "REFLEX-AI"
-kind = "AI agent · Research"
-tagline = "A research agent that learns from its own mistakes and refuses to answer without a citation."
-facts = [
-  "Plan → search → extract → validate → format, each checked",
-  "Six-type mistake taxonomy turned into explicit policy updates",
-  "Blocks the final answer instead of hallucinating one",
-]
-stack = ["Python", "Agents", "Tool use", "GitHub Actions"]
-repo = "reflex-ai"
-
-[[path]]
-when = "2019 – 2023"
-role = "B.Tech, Computer Science"
-org = "SGGSIE&T, Nanded"
-note = "CGPA 8.80 · 1st rank in second year"
-
-[[path]]
-when = "Jan – May 2023"
-role = "SDE Intern"
-org = "BitMap Technology"
-note = "Face + OTP + voice login with liveness checks"
-
-[[path]]
-when = "Jul – Oct 2023"
-role = "Data Intern"
-org = "PHN Technology"
-note = "T20 World Cup analytics → Power BI"
-
-[[path]]
-when = "Dec 2023 – Feb 2026"
-role = "Software Engineer"
-org = "Tata Elxsi"
-note = "Python tooling, GenAI apps, EV diagnostics"
-
-[[path]]
-when = "Mar 2026 – now"
-role = "Software Engineer"
-org = "Translytics"
-note = "AI + backend for a supply-chain planning SaaS"
-current = true
-
-[[stack]]
-label = "AI / LLM"
-items = ["LangGraph", "LLM agents", "RAG", "Claude API", "Gemini", "Ollama", "LangChain", "FAISS", "pgvector", "Prompt evals"]
-strong = ["LangGraph", "RAG", "Claude API"]
-
-[[stack]]
-label = "Backend"
-items = ["Python", "FastAPI", "Flask", "SQLAlchemy", "REST APIs", "Redis / RQ", "Hono", "OpenAPI"]
-strong = ["Python", "FastAPI", "Flask"]
-
-[[stack]]
-label = "Frontend"
-items = ["TypeScript", "React", "Next.js", "MUI", "Tailwind", "Chrome MV3"]
-strong = ["TypeScript", "React"]
-
-[[stack]]
-label = "Data & infra"
-items = ["MySQL", "PostgreSQL", "pandas", "Docker", "GitHub Actions", "Vercel", "Firebase", "Power BI"]
-strong = ["MySQL", "PostgreSQL", "Docker"]
-
-# Link buttons under the hero (rendered to assets/link-<slug>-*.svg)
 [[link]]
 slug = "site"
 kind = "Portfolio"
@@ -168,3 +38,138 @@ slug = "email"
 kind = "Email"
 label = "abhay.s.yemekar@gmail.com"
 url = "mailto:abhay.s.yemekar@gmail.com"
+
+# ----------------------------------------------------------------- projects
+
+[[project]]
+slug = "hirelens"
+name = "HireLens"
+kind = "Open source · Responsible AI"
+tagline = "Glass-box candidate ranking. Every score cites the exact evidence in the resume, with bias audits built in."
+shot = "assets/shots/hirelens.jpg"
+logos = ["typescript", "nextdotjs", "hono", "postgresql", "docker"]
+repo = "hirelens"
+live = "https://hirelens-rosy.vercel.app"
+version = "release"
+metric = "{npm:hirelens} npm downloads / 30d"
+
+[[project]]
+slug = "ydirect"
+name = "yDirect"
+kind = "Chrome extension · Productivity"
+tagline = "Save prompts, replies and snippets once. Search and copy them from Chrome's side panel."
+shot = "assets/shots/ydirect.jpg"
+logos = ["googlechrome", "javascript", "firebase", "nodedotjs"]
+repo = "ydirect"
+live = "https://chromewebstore.google.com/detail/ehkahipeoahnbfbahlkedgdcjefejihg"
+version = "release"
+metric = "Published on the Chrome Web Store"
+
+[[project]]
+slug = "searchscribe"
+name = "SearchScribe AI"
+kind = "Open source · AI writing"
+tagline = "A topic in, a researched and structured draft out. Edit it, version it, export clean HTML."
+shot = "assets/shots/searchscribe.jpg"
+logos = ["nextdotjs", "fastapi", "python", "postgresql", "googlegemini"]
+repo = "SearchScribe_AI_Studio"
+live = "https://searchscribe-ai.vercel.app"
+badge = "beta"
+metric = "Sources kept in every version"
+
+[[project]]
+slug = "forecastgpt"
+name = "ForecastGPT"
+kind = "AI agent · Finance"
+tagline = "Reads quarterly filings and earnings calls, then writes a grounded, confidence-scored outlook."
+shot = "assets/shots/forecastgpt.jpg"
+logos = ["python", "fastapi", "langchain", "ollama", "mysql"]
+repo = "forecastgpt-financial-outlook-agent"
+live = "https://forecastgpt-financial-outlook-agent.onrender.com/"
+metric = "Every claim traced to a retrieved chunk"
+
+[[project]]
+slug = "writeright"
+name = "WriteRight"
+kind = "Chrome extension · Writing"
+tagline = "Self-hosted grammar checks and AI rewrites, reviewed in the page before anything changes."
+flow = ["text in page", "LanguageTool grammar", "Gemini rewrite (optional)", "review: accept · reject · undo"]
+logos = ["googlechrome", "javascript", "nodedotjs", "googlegemini"]
+repo = "ycorrect"
+metric = "Zero runtime dependencies"
+
+[[project]]
+slug = "reflex"
+name = "REFLEX-AI"
+kind = "AI agent · Research"
+tagline = "A research agent that learns from its own mistakes and refuses to answer without a citation."
+flow = ["plan", "search", "extract", "validate", "answer or BLOCK"]
+logos = ["python", "githubactions"]
+repo = "reflex-ai"
+metric = "Six-type mistake taxonomy → policy updates"
+
+# ----------------------------------------------------------------- capabilities
+# tools: Simple Icons slugs, or "text:Label" for tools without a logo.
+
+[[capability]]
+name = "LLM apps & agents"
+proof = "HireLens · ForecastGPT · REFLEX-AI · SearchScribe AI"
+tools = ["claude", "googlegemini", "ollama", "langchain", "langgraph", "text:RAG", "text:FAISS · pgvector", "text:Evals", "text:Prompt engineering"]
+
+[[capability]]
+name = "Backend & APIs"
+proof = "SearchScribe AI · ForecastGPT · HireLens · day job"
+tools = ["python", "fastapi", "flask", "nodedotjs", "hono", "sqlalchemy", "openapiinitiative", "jsonwebtokens", "text:REST · SSE"]
+
+[[capability]]
+name = "Data & storage"
+proof = "HireLens · ForecastGPT · yDirect · day job"
+tools = ["postgresql", "mysql", "redis", "firebase", "drizzle", "neon", "text:Redis/RQ jobs"]
+
+[[capability]]
+name = "Frontend & extensions"
+proof = "HireLens · yDirect · WriteRight · abhayemekar.me"
+tools = ["typescript", "javascript", "react", "nextdotjs", "tailwindcss", "vite", "googlechrome", "text:Manifest V3"]
+
+[[capability]]
+name = "ML & analytics"
+proof = "3-Factor Login · CricketStat Pro"
+tools = ["tensorflow", "opencv", "pandas", "numpy", "jupyter", "text:Power BI · DAX"]
+
+[[capability]]
+name = "Ship & operate"
+proof = "HireLens · SearchScribe AI · this profile"
+tools = ["docker", "githubactions", "vercel", "render", "sentry", "pytest", "npm", "git", "text:Playwright"]
+
+# ----------------------------------------------------------------- path
+
+[[path]]
+when = "2019 – 2023"
+role = "B.Tech, Computer Science"
+org = "SGGSIE&T, Nanded"
+note = "CGPA 8.80 · 1st rank in second year"
+
+[[path]]
+when = "Jan – May 2023"
+role = "SDE Intern"
+org = "BitMap Technology"
+note = "Face + OTP + voice login"
+
+[[path]]
+when = "Jul – Oct 2023"
+role = "Data Intern"
+org = "PHN Technology"
+note = "T20 analytics → Power BI"
+
+[[path]]
+when = "Dec 2023 – Feb 2026"
+role = "Software Engineer"
+org = "Tata Elxsi"
+note = "Python tooling, GenAI apps"
+
+[[path]]
+when = "Mar 2026 – now"
+role = "Software Engineer"
+org = "Translytics"
+note = "AI + backend, supply-chain SaaS"
+current = true
