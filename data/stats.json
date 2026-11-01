@@ -2,34 +2,6 @@
  "activity": {
   "calendar": [
    {
-    "date": "2025-10-26",
-    "count": 0
-   },
-   {
-    "date": "2025-10-27",
-    "count": 0
-   },
-   {
-    "date": "2025-10-28",
-    "count": 0
-   },
-   {
-    "date": "2025-10-29",
-    "count": 0
-   },
-   {
-    "date": "2025-10-30",
-    "count": 0
-   },
-   {
-    "date": "2025-10-31",
-    "count": 0
-   },
-   {
-    "date": "2025-11-01",
-    "count": 0
-   },
-   {
     "date": "2025-11-02",
     "count": 0
    },
@@ -1484,12 +1456,16 @@
    {
     "date": "2026-10-31",
     "count": 0
+   },
+   {
+    "date": "2026-11-01",
+    "count": 0
    }
   ],
   "contributions": 852,
   "active_days": 72,
   "longest_streak": 13,
-  "current_streak": 10,
+  "current_streak": 0,
   "merged_prs_year": 200,
   "merged_prs_all": 200
  },
@@ -1613,23 +1589,23 @@
   "hirelens": {
    "ok": true,
    "status": 200,
-   "ms": 314
+   "ms": 366
   },
   "ydirect": {
    "ok": true,
    "status": 200,
-   "ms": 421
+   "ms": 310
   },
   "searchscribe": {
    "ok": true,
    "status": 200,
-   "ms": 134
+   "ms": 358
   },
   "forecastgpt": {
    "ok": true,
    "status": 200,
-   "ms": 52798
+   "ms": 42512
   }
  },
- "generated_at": "2026-10-31T07:06:28+00:00"
+ "generated_at": "2026-11-01T07:39:51+00:00"
 }
